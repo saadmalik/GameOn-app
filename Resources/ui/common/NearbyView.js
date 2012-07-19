@@ -9,7 +9,7 @@ module.exports = function(){
   var line = Ti.UI.createView({
     height: Ti.UI.FILL,
     width: '5',
-    backgroundColor: '#ccc',
+    backgroundColor: '#666',
     opacity: 0.1,
     left: '9%',
   });
@@ -40,6 +40,15 @@ module.exports = function(){
       zIndex: 99
     });
     row.add(sportIcon);
+
+    var gameInfoBox = Ti.UI.createView({
+      backgroundImage: 'images/gameInfoBoxBg.png',
+      height: Ti.UI.FILL,
+      width: '80%',
+      right: 5,
+      zIndex: 99
+    });
+    row.add(gameInfoBox);
 
     scrollView.add(row);
   }
