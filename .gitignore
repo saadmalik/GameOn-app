@@ -1,3 +1,5 @@
 tmp
 build
 .settings
+.DS_Store
+*.log
