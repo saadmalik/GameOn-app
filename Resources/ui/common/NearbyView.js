@@ -1,6 +1,8 @@
 module.exports = function(){
   var self = Ti.UI.createScrollView({
-    backgroundColor: 'red'
+    layout : 'vertical',
+    contentHeight : 'auto',
+    scrollType : 'vertical',
   });
 
   return self;

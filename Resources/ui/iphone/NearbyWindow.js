@@ -1,8 +1,7 @@
 module.exports = function() {
 	var self = Ti.UI.createWindow({
 		title: 'Nearby',
-    backgroundColor: '#ebe8e2',
-    //backgroundImage:
+    backgroundImage: 'images/bg-noise-pattern.png'
 	});
 	
   var NearbyView = require('ui/common/NearbyView')();
