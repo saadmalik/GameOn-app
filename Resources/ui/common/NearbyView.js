@@ -34,7 +34,7 @@ module.exports = function(){
 
     var sportIcon = Ti.UI.createImageView({
       image: 'images/soccer-icon.png',
-      top: 40,
+      top: 25,
       left: '1%',
       height: 29,
       zIndex: 99
@@ -43,9 +43,8 @@ module.exports = function(){
 
     var gameInfoBox = Ti.UI.createView({
       backgroundImage: 'images/gameInfoBoxBg.png',
-      height: Ti.UI.FILL,
-      width: '80%',
-      right: 5,
+      height: '76',
+      width: '75%',
       zIndex: 99
     });
     row.add(gameInfoBox);
