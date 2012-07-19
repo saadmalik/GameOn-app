@@ -9,13 +9,15 @@ function ApplicationTabGroup(Window) {
 	var tab1 = Ti.UI.createTab({
 		title: L('home'),
 		icon: '/images/KS_nav_ui.png',
-		window: win1
+		window: win1,
+    backgroundColor: '#222'
 	});
 	win1.containingTab = tab1;
 	
 	var tab2 = Ti.UI.createTab({
 		title: L('settings'),
 		icon: '/images/KS_nav_views.png',
+    backgroundColor: '#222',
 		window: win2
 	});
 	win2.containingTab = tab2;
