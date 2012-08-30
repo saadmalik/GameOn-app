@@ -161,30 +161,30 @@ module.exports = function(){
     });
     gameInfoBox.add(capacity);
 
-    var topHalf = Ti.UI.createView({
+    /* var topHalf = Ti.UI.createView({
       layout: 'horizontal',
       bottom: '30%',
       left: -5,
       //backgroundColor: 'red'
     });
-    gameInfoBox.add(topHalf);
+    gameInfoBox.add(topHalf); */
     
-    var profilePic = Ti.UI.createImageView({
+    /* var profilePic = Ti.UI.createImageView({
       image: '/images/saad.png',
       top: 5,
       bottom: '16%',
     });
-    topHalf.add(profilePic);
+    topHalf.add(profilePic); */
     
-    var textContainer = Ti.UI.createView({
+    /* var textContainer = Ti.UI.createView({
       layout: 'vertical',
       left: -15,
       top: 5,
       backgroundColor: 'green'
     });
-    topHalf.add(textContainer);    
+    topHalf.add(textContainer);    */
 
-    var name = Ti.UI.createLabel({
+    /* var name = Ti.UI.createLabel({
       text: 'Saad Malik',
       color: '#111',
       font: {fontStyle: 'bold', fontSize: '12dp'},
@@ -221,13 +221,13 @@ module.exports = function(){
     var newLine = Ti.UI.createView({
       width: Ti.UI.FILL,
       backgroundColor: 'blue'
-    });
+    }); */
     
     
 
-    textContainer.add(name);
+   /* textContainer.add(name);
     textContainer.add(gameJoinedLine);
-    textContainer.add(newLine);
+    textContainer.add(newLine); */
 /*
  *    var statsLine = Ti.UI.createView({
  *      layout: 'horizontal',
