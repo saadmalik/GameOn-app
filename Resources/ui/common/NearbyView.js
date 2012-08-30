@@ -1,3 +1,19 @@
+//Temporary Mock data
+var gamesList = [{
+  sport : 'soccer',
+  id : '12345',
+  distance: '0.2',
+  comment_count: 4,
+  capacity: '11/15',
+  nearby_user : {
+    id : '007',
+    name : 'Saad Malik',
+    photo : 'images/profile-photo.png',
+    timestamp: '101321312'
+  }
+}];
+
+
 module.exports = function(){
   var basePath = Ti.Platform.osname === 'android' ? 'ui/android/' : 'ui/iphone/';
   var GameDetailWindow = require(basePath + 'GameDetailWindow');
