@@ -34,11 +34,7 @@ module.exports = function(){
 
     var sportIcon = Ti.UI.createImageView({
       image: 'images/soccer-icon.png',
-<<<<<<< HEAD
       top: 37,
-=======
-      top: 27,
->>>>>>> 13aa3511c2f577d5c5ffcd63394be4cb393a5439
       left: '1%',
       height: 29,
       zIndex: 99
@@ -47,14 +43,8 @@ module.exports = function(){
 
     var gameInfoBox = Ti.UI.createView({
       backgroundImage: 'images/gameInfoBoxBg.png',
-<<<<<<< HEAD
       // height: Ti.UI.FILL,
       right:8
-=======
-      height: '84dp',
-      left: -10,
-      width: '80%',
->>>>>>> 13aa3511c2f577d5c5ffcd63394be4cb393a5439
     });
     row.add(gameInfoBox);
     
