@@ -1,4 +1,7 @@
 module.exports = function(){
+  var basePath = Ti.Platform.osname === 'android' ? 'ui/android/' : 'ui/iphone/';
+  var GameDetailWindow = require(basePath + 'GameDetailWindow');
+  
   var self = Ti.UI.createView({
     width: Ti.UI.FILL,
     height: Ti.UI.FILL,
@@ -46,7 +49,12 @@ module.exports = function(){
       // height: Ti.UI.FILL,
       right:8
     });
-    row.add(gameInfoBox);
+    row.add(gameInfoBox);	
+    
+    gameInfoBox.addEventListener('click',function() {
+      Titanium.API.info('Button Clicked');
+      
+    });
     
     var dateTimeCommentsBg = Ti.UI.createView({
     	backgroundColor: '#f9f5f2',
