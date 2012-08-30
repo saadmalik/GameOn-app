@@ -1,7 +1,7 @@
 function ApplicationWindow(title) {
 	var self = Ti.UI.createWindow({
 		title:title,
-		backgroundColor:'white'
+		backgroundColor:'black'
 	});
 	
 	var button = Ti.UI.createButton({
@@ -17,7 +17,7 @@ function ApplicationWindow(title) {
 		//the window for this work
 		self.containingTab.open(Ti.UI.createWindow({
 			title: L('newWindow'),
-			backgroundColor: 'white'
+			backgroundColor: 'black'
 		}));
 	});
 	
