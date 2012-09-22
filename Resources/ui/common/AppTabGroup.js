@@ -1,6 +1,7 @@
 function AppTabGroup(Window) {
+	
 	//create module instance
-	var self = Ti.UI.createTabGroup();
+  var self = Ti.UI.createTabGroup();
 	
 	//create app tabs
 	var NearbyWindow = new require(global.basePath + 'NearbyWindow')();
@@ -33,6 +34,7 @@ function AppTabGroup(Window) {
 	self.addTab(tab3);
 	
 	return self;
+  	
 };
 
 module.exports = AppTabGroup;

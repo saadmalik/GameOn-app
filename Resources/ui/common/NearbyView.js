@@ -13,7 +13,6 @@ var gamesList = [{
   }
 }];
 
-
 module.exports = function(){
   var basePath = Ti.Platform.osname === 'android' ? 'ui/android/' : 'ui/iphone/';
   var GameDetailWindow = require(basePath + 'GameDetailWindow');
@@ -68,10 +67,16 @@ module.exports = function(){
     });
     row.add(gameInfoBox);	
     
+    var win = Titanium.UI.createWindow({ 
+      title:'Window1', 
+      backgroundColor:'#fff',
+      barColor: '#758aa7',
+      tabBarHidden: true
+    });
+    
     gameInfoBox.addEventListener('click',function() {
       //MOVE THIS FUNCTION OUTSIDE OF LOOP LATER
-      Titanium.API.info('Button Clicked');
-      
+      Titanium.API.info('Button Clicked');    
     });
     
     var dateTimeCommentsBg = Ti.UI.createView({
@@ -94,7 +99,7 @@ module.exports = function(){
     gameInfoBox.add(clockIcon);
     
     var dateTime = Ti.UI.createLabel({
-      text: 'Today @ 8pm',
+      text: 'Today at 8pm',
       color: '#b4b1b1', 
       font: { fontSize:13,fontFamily:'Helvetica Neue' },
       bottom: '8%',
