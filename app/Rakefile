@@ -4,6 +4,7 @@ task :default do
   begin
     sh 'alloy compile'
     sh 'alloy run'
+    sh 'touch ' + File.dirname(__FILE__) + '/../Resources/.gitkeep'
   rescue
     puts 'Failed'
   end
