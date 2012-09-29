@@ -3,5 +3,3 @@ build.log
 build
 npm-debug.log
 tmp
-*.log
-*.swp
