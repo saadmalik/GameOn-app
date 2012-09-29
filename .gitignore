@@ -1,5 +1,7 @@
-tmp
-build
-.settings
 .DS_Store
+build.log
+build
+npm-debug.log
+tmp
 *.log
+*.swp
