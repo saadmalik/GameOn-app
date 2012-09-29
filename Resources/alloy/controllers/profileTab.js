@@ -2,14 +2,16 @@ function Controller() {
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
     var $ = this, exports = {};
     $.__views.profile = A$(Ti.UI.createWindow({
+        backgroundColor: "white",
         title: "Profile",
         id: "profile"
     }), "Window", null);
-    $.__views.__alloyId13 = A$(Ti.UI.createLabel({
+    $.__views.__alloyId11 = A$(Ti.UI.createLabel({
+        color: "#ffffff",
         text: "Peace out, yo",
-        id: "__alloyId13"
+        id: "__alloyId11"
     }), "Label", $.__views.profile);
-    $.__views.profile.add($.__views.__alloyId13);
+    $.__views.profile.add($.__views.__alloyId11);
     $.__views.profileTab = A$(Ti.UI.createTab({
         window: $.__views.profile,
         title: "Profile",

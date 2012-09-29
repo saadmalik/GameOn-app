@@ -1,0 +1,8 @@
+<Alloy>
+  <Tab title="Nearby Games">
+    <Window title="Nearby Games" id="nearbyWindow">
+      <Label title="Nearby Games">Word, son</Label>
+    </Window>
+  </Tab>
+</Alloy>
+

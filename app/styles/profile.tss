@@ -1,0 +1,8 @@
+"Window": {
+	backgroundColor:"white"
+},
+
+"Label": {
+	color: "#ffffff"
+} 
+

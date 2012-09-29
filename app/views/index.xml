@@ -1,13 +1,7 @@
 <Alloy>
-	<TabGroup class="group">
-    <Tab id="tab1">
-      <Window id="win1">
-        <Label>Label 1</Label>
-        <Button>Say Hello</Button>
-      </Window>
-    </Tab>
-    <Require src="nearbyTab"/>
-    <Require src="myGamesTab"/>
-    <Require src="profileTab"/>
-	</TabGroup>
+	<Group class="group">
+    <Require src="nearby"/>
+    <Require src="myGames"/>
+    <Require src="profile"/>
+	</Group>
 </Alloy>
