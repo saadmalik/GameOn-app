@@ -1,2 +1,5 @@
-$.index.open();
+//function doClick(e) {  
+  //$.tabcontrol
+//}
 
+$.index.open();

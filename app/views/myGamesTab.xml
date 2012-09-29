@@ -1,0 +1,9 @@
+<Alloy>
+  <Tab title="My Games">
+    <Window title="My Games" id="myGames">
+        <Label>Word, son</Label>
+        <Label>Label 1</Label>
+        <Button>Say Hello</Button>
+    </Window>
+  </Tab>
+</Alloy>
