@@ -1,3 +1,8 @@
 <Alloy>
-	<Label>I'm the default widget</Label>
+  <View id="container">
+    <ImageView id="sportIcon" />
+    <View id="infoBox" onClick="launchGameDetail">
+
+    </View>
+  </View>
 </Alloy>

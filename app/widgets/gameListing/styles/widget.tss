@@ -1,9 +1,17 @@
-"Label": {
-	color: '#000',
-	font: {
-		fontSize: 18,
-		fontWeight: 'bold'
-	},
-	height: Ti.UI.SIZE,
-	width: Ti.UI.SIZE
-}
+"#container": {
+  top: 10,
+  height: '100dp',
+  layout: 'horizontal',
+
+},
+
+"#sportIcon": {
+  top: '37dp',
+  left: '1%',
+  height: '29dp',
+  backgroundColor: '#000000'
+},
+
+"#infoBox": {
+  right: '8dp'
+},
