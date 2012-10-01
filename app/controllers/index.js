@@ -2,4 +2,4 @@
   //$.tabcontrol
 //}
 
-$.index.open();
+$.group.open();

@@ -1,5 +1,5 @@
 <Alloy>
-	<TabGroup class="group">
+	<TabGroup id="group">
     <Require src="nearby"/>
     <Require src="myGames"/>
     <Require src="profile"/>
