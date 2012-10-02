@@ -7,7 +7,19 @@ task :default do
     sh 'touch ' + File.dirname(__FILE__) + '/../Resources/.gitkeep'
   rescue
     puts '======================================================'
-    puts 'Failed'
+    puts '                       Failed                         '
+    puts '======================================================'
+  end
+end
+
+task :andy do
+  begin
+    sh 'alloy compile --config platform=android'
+    sh 'alloy run ../ android'
+    sh 'touch ' + File.dirname(__FILE__) + '/../Resources/.gitkeep'
+  rescue
+    puts '======================================================'
+    puts '                       Failed                         '
     puts '======================================================'
   end
 end
