@@ -1,11 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ti:app xmlns:ti="http://ti.appcelerator.org">
-    <property name="acs-oauth-secret-production" type="string">U6Sd5w8b3zDJKGDx2WXrHaG9I5m4Aa3J</property>
-    <property name="acs-oauth-key-production" type="string">vK4TVRwYFfWuUmNA72NxNIe4KK4Doild</property>
-    <property name="acs-api-key-production" type="string">0RRHRJEhaYdMEYUZiXhKiBAWqDXnipT2</property>
-    <property name="acs-oauth-secret-development" type="string">J0zCsQwYbJYXgfJoqJfJsjJyeXjZcixs</property>
-    <property name="acs-oauth-key-development" type="string">ANrkuZ0cSAIXqIXvRm6nR56tSEATq8rP</property>
-    <property name="acs-api-key-development" type="string">JfumerAGtcUZFPNGDJ64sa7ttInwhkZ3</property>
+<?xml version="1.0" encoding="UTF-8"?><ti:app xmlns:ti="http://ti.appcelerator.org">
     <deployment-targets>
         <target device="mobileweb">false</target>
         <target device="iphone">true</target>
@@ -13,23 +6,23 @@
         <target device="android">true</target>
         <target device="blackberry">false</target>
     </deployment-targets>
-    <sdk-version>2.1.0.GA</sdk-version>
+    <sdk-version>2.1.3.GA</sdk-version>
     <id>com.integlabs.gameon</id>
-    <name>GameOn</name>
+    <name>gameon</name>
     <version>1.0</version>
-    <publisher>saad</publisher>
-    <url>http://integlabs.com</url>
+    <publisher>bilalq</publisher>
+    <url>http://gameon.integlabs.com</url>
     <description>not specified</description>
-    <copyright>2012 by saad</copyright>
+    <copyright>2012 by bilalq</copyright>
     <icon>appicon.png</icon>
     <persistent-wifi>false</persistent-wifi>
     <prerendered-icon>false</prerendered-icon>
-    <statusbar-style>opaque</statusbar-style>
+    <statusbar-style>default</statusbar-style>
     <statusbar-hidden>false</statusbar-hidden>
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
     <analytics>true</analytics>
-    <guid>4b4c3bb1-4d86-41a0-81fd-0ebc92930735</guid>
+    <guid>50e7b190-357b-438d-95df-1be1baad26f0</guid>
     <property name="ti.ui.defaultunit">system</property>
     <iphone>
         <orientations device="iphone">
@@ -51,7 +44,8 @@
         </splash>
         <theme>default</theme>
     </mobileweb>
-    <modules>
-        <module platform="commonjs" version="2.1.0">ti.cloud</module>
-    </modules>
+    <modules><module platform="android" version="1.0">ti.physicalSizeCategory</module>
+</modules>
+<plugins><plugin version="1.0">ti.alloy</plugin>
+</plugins>
 </ti:app>
