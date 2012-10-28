@@ -1,0 +1,7 @@
+<Alloy>
+  <View id="row">
+    <ImageView id="sportIcon"/>
+    <View id="info_box" onClick="gameClick">
+    </View>
+  </View>
+</Alloy>

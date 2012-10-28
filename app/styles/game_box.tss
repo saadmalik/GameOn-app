@@ -1,0 +1,19 @@
+"#row": {
+  top: '10dp',
+  height: '100dp',
+  layout: 'horizontal',
+  zIndex: 99
+},
+
+"#sportIcon": {
+  image: '/images/soccer-icon.png',
+  top: '37dp',
+  left: '1%',
+  height: '29dp',
+  zIndex: 99
+},
+
+"#info_box": {
+  backgroundImage: '/images/gameInfoBoxBg.png',
+  right: '8dp'
+}

@@ -1,6 +1,7 @@
-// Set up right nav button
-$.nearbyWindow.rightNavButton = Ti.UI.createButton({
-  title: 'Create'
-});
+if (OS_IOS) {
+  $.nearbyWindow.rightNavButton = Ti.UI.createButton({
+    title: 'Create'
+  });
+}
 
 

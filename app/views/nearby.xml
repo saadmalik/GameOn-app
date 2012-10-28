@@ -2,6 +2,29 @@
   <Tab title="Nearby Games" id="nearbyTab">
     <Window title="Nearby Games" id="nearbyWindow">
       <View class="line"/>
+      <ScrollView class="scroller">
+        <Require src="game_box"/>
+        <Require src="game_box"/>
+        <Require src="game_box"/>
+        <Require src="game_box"/>
+        <Require src="game_box"/>
+        <Require src="game_box"/>
+        <Require src="game_box"/>
+        <Require src="game_box"/>
+        <Require src="game_box"/>
+        <Require src="game_box"/>
+        <Require src="game_box"/>
+        <Require src="game_box"/>
+        <Require src="game_box"/>
+        <Require src="game_box"/>
+        <Require src="game_box"/>
+        <Require src="game_box"/>
+        <Require src="game_box"/>
+        <Require src="game_box"/>
+        <Require src="game_box"/>
+        <Require src="game_box"/>
+        <Require src="game_box"/>
+      </ScrollView>
     </Window>
   </Tab>
 </Alloy>
