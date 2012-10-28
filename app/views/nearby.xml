@@ -1,6 +1,7 @@
 <Alloy>
   <Tab title="Nearby Games" id="nearbyTab">
     <Window title="Nearby Games" id="nearbyWindow">
+      <View class="line"/>
     </Window>
   </Tab>
 </Alloy>

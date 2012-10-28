@@ -1,6 +1,7 @@
 <Alloy>
   <Tab title="My Games" id="myGamesTab">
     <Window title="My Games" id="myGamesWindow">
+      <View class="line"/>
     </Window>
   </Tab>
 </Alloy>

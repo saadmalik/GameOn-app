@@ -1,3 +1,14 @@
 "Window": {
-  backgroundImage: '/images/bg-noise-pattern.png'
-}
+  width: Ti.UI.FILL,
+  height: Ti.UI.FILL,
+  backgroundImage: "/images/bg-noise-pattern.png",
+  backgroundRepeat: true
+},
+
+".line": {
+  height: Ti.UI.FILL,
+  width: '5dp',
+  backgroundColor: '#666',
+  opacity: 0.1,
+  left: '9%'
+},
