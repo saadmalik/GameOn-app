@@ -1,5 +1,7 @@
 <Alloy>
-	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
-	</Window>
+  <TabGroup id="group">
+    <Require src="nearby"/>
+    <Require src="my_games"/>
+    <Require src="profile"/>
+  </TabGroup>
 </Alloy>

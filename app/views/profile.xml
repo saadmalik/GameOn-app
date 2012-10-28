@@ -1,0 +1,7 @@
+<Alloy>
+  <Tab title="Profile" id="profileTab">
+    <Window title="Profile" id="profileWindow">
+      <Label>Peace out, yo</Label>
+    </Window>
+  </Tab>
+</Alloy>
