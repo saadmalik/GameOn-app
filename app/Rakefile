@@ -23,3 +23,7 @@ task :andy do
     puts '======================================================'
   end
 end
+
+task :clean do
+  sh 'rm -rf ' + File.dirname(__FILE__) + '/../Resources/*'
+end
