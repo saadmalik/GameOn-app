@@ -13,7 +13,7 @@
   left: '9%'
 },
 
-".scroller": {
+"#scroller": {
   layout: 'vertical',
   contentHeight: 'auto',
   scrollType: 'vertical',
