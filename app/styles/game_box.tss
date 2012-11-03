@@ -33,10 +33,26 @@
   left: '4dp'
 },
 
+"#date_time": {
+  text: 'Today @ 8pm',
+  color: '#b4b1b1',
+  font: { fontSize: '13dp', fontFamily: 'Helvetica Neue' },
+  bottom: '6dp',
+  left: '16dp'
+},
+
 "#bubble": {
   backgroundImage: '/images/commentBubble.png',
   right: '6dp',
   bottom: '3dp',
   width: '21dp',
   height: '20dp'
+},
+
+"#comment_count": {
+  text: '4',
+  font: { fontSize: '11dp', fontFamily: 'Helvetica Neue' },
+  color: '#b4b1b1',
+  textAlign: 'center',
+  bottom: '4dp'
 }

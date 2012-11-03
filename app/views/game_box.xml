@@ -4,8 +4,9 @@
     <View id="info_box" onClick="gameClick">
       <View id="bottom">
         <ImageView id="clock_icon"/>
+        <Label id="date_time"/>
         <View id="bubble">
-          <Label id="commentCount"/>
+          <Label id="comment_count"/>
         </View>
       </View>
     </View>
