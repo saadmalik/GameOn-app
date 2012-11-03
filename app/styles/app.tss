@@ -7,7 +7,7 @@
 
 ".line": {
   height: Ti.UI.FILL,
-  width: '5dp',
+  width: '3dp',
   backgroundColor: '#666',
   opacity: 0.1,
   left: '30dp'
