@@ -1,3 +1,6 @@
+var args = arguments[0] || {};
+
+
 function gameClick(e) {
-  alert("Game box clicked");
+  alert("Game: " + (args.sport || "none"));
 }

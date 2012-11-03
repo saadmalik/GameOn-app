@@ -16,4 +16,13 @@
 "#info_box": {
   backgroundImage: '/images/gameInfoBoxBg.png',
   right: '8dp'
+},
+
+"#bottom": {
+  backgroundColor: '#f9f5f2',
+  height: '30dp',
+  right: '2dp',
+  bottom: '3dp',
+  width: '235dp'
 }
+

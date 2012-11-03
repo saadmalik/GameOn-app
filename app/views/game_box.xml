@@ -2,6 +2,9 @@
   <View id="row">
     <ImageView id="sportIcon"/>
     <View id="info_box" onClick="gameClick">
+      <View id="bottom">
+        
+      </View>
     </View>
   </View>
 </Alloy>
