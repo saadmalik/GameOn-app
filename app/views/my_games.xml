@@ -2,6 +2,7 @@
   <Tab title="My Games" id="myGamesTab">
     <Window title="My Games" id="myGamesWindow">
       <View class="line"/>
+      <ScrollView id="scroller"/>
     </Window>
   </Tab>
 </Alloy>

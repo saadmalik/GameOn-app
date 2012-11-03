@@ -2,8 +2,7 @@
   <Tab title="Nearby" id="nearbyTab">
     <Window title="Nearby" id="nearbyWindow">
       <View class="line"/>
-      <ScrollView id="scroller">
-      </ScrollView>
+      <ScrollView id="scroller"/>
     </Window>
   </Tab>
 </Alloy>

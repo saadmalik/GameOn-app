@@ -1,24 +1,21 @@
+var datetime = require('alloy/datetime');
 var args = arguments[0] || {};
 
-$.sport_icon.image = '/images/' + args.sport + '-icon.png';
-$.comment_count.text = args.comment_count;
-$.date_time.text = args.nearby_user.timestamp;
-  //{
-    //id: '12345',
-    //sport: "soccer",
-    //distance: '0.2',
-    //comment_count: 4,
-    //nearby_user: {
-      //id: '007',
-      //name: 'Saad Malik',
-      //photo: '/images/profile-photo.png',
-      //timestamp: '101321312'
-    //}
-  //},
-
-
-function gameClick(e) {
-  alert(args.id);
+/* Necessary calculations */
+var timestamp = new Date(args.nearby_user.timestamp);
+var date = datetime.formatAsShort(timestamp);
+if (date.indexOf('/') < 0) {
+  date += ' @ ' + datetime.getTime(timestamp);
 }
 
-//exports.id = args.id;
+/* Set values for game specific attributes */
+$.sport_icon.image = '/images/' + args.sport + '-icon.png';
+$.comment_count.text = args.comment_count;
+$.date_time.text = date;
+
+
+/* Action to take when a game is clicked */
+function gameClick(e) {
+  //alert(args.id);
+}
+
