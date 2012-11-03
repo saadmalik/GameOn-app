@@ -10,7 +10,7 @@
   width: '5dp',
   backgroundColor: '#666',
   opacity: 0.1,
-  left: '9%'
+  left: '30dp'
 },
 
 "#scroller": {

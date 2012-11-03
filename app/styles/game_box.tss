@@ -8,7 +8,7 @@
 "#sportIcon": {
   image: '/images/soccer-icon.png',
   top: '37dp',
-  left: '1%',
+  left: '4dp',
   height: '29dp',
   zIndex: 99
 },
