@@ -10,10 +10,10 @@
     <id>com.integlabs.gameon</id>
     <name>gameon</name>
     <version>1.0</version>
-    <publisher>bilalq</publisher>
+    <publisher>IntegLabs</publisher>
     <url>http://gameon.integlabs.com</url>
     <description>not specified</description>
-    <copyright>2012 by bilalq</copyright>
+    <copyright>2012 by IntegLabs</copyright>
     <icon>appicon.png</icon>
     <persistent-wifi>false</persistent-wifi>
     <prerendered-icon>false</prerendered-icon>
@@ -27,12 +27,11 @@
     <iphone>
         <orientations device="iphone">
             <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
         </orientations>
         <orientations device="ipad">
             <orientation>Ti.UI.PORTRAIT</orientation>
             <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
-            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
-            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
         </orientations>
     </iphone>
     <android xmlns:android="http://schemas.android.com/apk/res/android"/>
