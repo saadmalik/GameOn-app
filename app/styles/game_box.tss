@@ -5,7 +5,7 @@
   zIndex: 99
 },
 
-"#sportIcon": {
+"#sport_icon": {
   image: '/images/soccer-icon.png',
   top: '37dp',
   left: '3dp',
@@ -24,5 +24,19 @@
   right: '2dp',
   bottom: '3dp',
   width: '235dp'
-}
+},
 
+"#clock_icon": {
+  image: '/images/clock.png',
+  width: '11dp',
+  bottom: '4dp',
+  left: '4dp'
+},
+
+"#bubble": {
+  backgroundImage: '/images/commentBubble.png',
+  right: '6dp',
+  bottom: '3dp',
+  width: '21dp',
+  height: '20dp'
+}

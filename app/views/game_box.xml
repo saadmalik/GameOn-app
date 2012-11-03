@@ -1,9 +1,12 @@
 <Alloy>
   <View id="row">
-    <ImageView id="sportIcon"/>
+    <ImageView id="sport_icon"/>
     <View id="info_box" onClick="gameClick">
       <View id="bottom">
-        
+        <ImageView id="clock_icon"/>
+        <View id="bubble">
+          <Label id="commentCount"/>
+        </View>
       </View>
     </View>
   </View>
