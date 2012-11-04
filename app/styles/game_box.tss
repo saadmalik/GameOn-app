@@ -1,6 +1,7 @@
 "#row": {
   top: '10dp',
   height: '100dp',
+  width: Ti.UI.SIZE,
   layout: 'horizontal',
   zIndex: 99
 },
@@ -14,6 +15,7 @@
 
 "#info_box": {
   backgroundImage: '/images/gameInfoBoxBg.png',
+  left: 0,
   right: '8dp'
 },
 
@@ -33,10 +35,13 @@
 },
 
 "#date_time": {
-  color: '#b4b1b1',
-  font: { fontSize: '13dp', fontFamily: 'Helvetica Neue' },
+  left: '16dp',
   bottom: '6dp',
-  left: '16dp'
+  color: '#b4b1b1',
+  font: {
+    fontSize: '13dp',
+    fontFamily: 'Helvetica Neue'
+  }
 },
 
 "#bubble": {
@@ -48,8 +53,53 @@
 },
 
 "#comment_count": {
-  font: { fontSize: '11dp', fontFamily: 'Helvetica Neue' },
+  font: {
+    fontSize: '11dp',
+    fontFamily: 'Helvetica Neue'
+  },
   color: '#b4b1b1',
   textAlign: 'center',
   bottom: '4dp'
+},
+
+"#profile_photo": {
+  width: '50dp',
+  height: '50dp',
+  left: '17dp',
+  top: '5dp'
+},
+
+"#name": {
+  left: '70dp',
+  top: '5dp',
+  color: '#666666',
+  font: {
+    fontSize: 13,
+    fontFamily: 'Helvetica Neue',
+    fontWeight: 'bold'
+  }
+},
+
+"#description": {
+  left: '70dp',
+  top: '21dp',
+  layout: 'horizontal'
+},
+
+"#action": {
+  color: '#959595',
+  font: {
+    fontSize: 12,
+    fontFamily: 'Helvetica Neue'
+  },
+  text: 'joined a game of '
+},
+
+"#game_type": {
+  color: '#959595',
+  font: {
+    fontSize: 12,
+    fontFamily:'Helvetica Neue',
+    fontWeight: 'bold'
+  }
 }

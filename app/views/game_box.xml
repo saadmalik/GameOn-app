@@ -2,6 +2,14 @@
   <View id="row">
     <ImageView id="sport_icon"/>
     <View id="info_box" onClick="gameClick">
+      <View id="top">
+        <ImageView id="profile_photo"/>
+        <Label id="name"/>
+        <View id="description">
+          <Label id="action"/>
+          <Label id="game_type"/>
+        </View>
+      </View>
       <View id="bottom">
         <ImageView id="clock_icon"/>
         <Label id="date_time"/>
