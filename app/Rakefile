@@ -1,6 +1,6 @@
 require 'rake'
 
-task :default do
+task :default => [:clean] do
   begin
     sh 'alloy compile'
     sh 'alloy run'
