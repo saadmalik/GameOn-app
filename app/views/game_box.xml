@@ -9,6 +9,12 @@
           <Label id="action"/>
           <Label id="game_type"/>
         </View>
+        <View id="counts">
+          <ImageView id="pin_icon"/>
+          <Label id="distance"/>
+          <ImageView id="people_icon"/>
+          <Label id="headcount"/>
+        </View>
       </View>
       <View id="bottom">
         <ImageView id="clock_icon"/>

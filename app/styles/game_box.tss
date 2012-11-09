@@ -19,6 +19,40 @@
   right: '8dp'
 },
 
+"#counts": {
+  layout: 'horizontal',
+  top: '42dp',
+  left: '71dp'
+},
+
+"#pin_icon": {
+  image: '/images/geoPin.png',
+  height: '9dp'
+},
+
+"#distance": {
+  left: '1dp',
+  color: '#b4b1b1',
+  font: {
+    fontSize: '11dp',
+    fontFamily: 'Helvetica Neue'
+  },
+},
+
+"#people_icon": {
+  left: '3dp',
+  image: '/images/user.png',
+  height: '9dp'
+},
+
+"#headcount": {
+  color: '#b4b1b1',
+  font: {
+    fontSize: '11dp',
+    fontFamily: 'Helvetica Neue'
+  },
+},
+
 "#bottom": {
   backgroundColor: '#f9f5f2',
   height: '30dp',
@@ -70,7 +104,7 @@
 },
 
 "#name": {
-  left: '70dp',
+  left: '73dp',
   top: '5dp',
   color: '#666666',
   font: {
@@ -81,7 +115,7 @@
 },
 
 "#description": {
-  left: '70dp',
+  left: '73dp',
   top: '21dp',
   layout: 'horizontal'
 },
