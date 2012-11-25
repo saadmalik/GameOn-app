@@ -1,23 +1,42 @@
 <Alloy>
   <Window id="gameDetail">
-    <View class="gameText">
-      <View id="topRow">
+
+    <View class="game_text">
+      <View id="top_row">
         <ImageView id="profile_photo"/>
         <Label id="name"/>
-        <View id="joinRow">
+        <View id="join_row">
           <Label id="action"/>
           <Label id="game_type"/>
         </View>
-        <View id="timeRow">
+        <View id="time_row">
           <ImageView id="clock_icon"/>
           <Label id="date_time"/>
         </View>
         <ImageView id="sport_icon"/>
       </View>
       <View class="hr"/>
-      <Label id="gameDesc"/>
+      <Label id="game_desc"/>
       <View class="hr"/>
-      <Button id="joinBtn"/>
+      <Button id="join_btn"/>
+    </View>
+
+    <View id="headcount_row">
+      <ImageView id="people_icon"/>
+      <Label id="headcount"/>
+    </View>
+    <View id="people_box">
+      <View id="people_bottom_row">
+        <Label id="see_all_joined">SEE ALL WHO JOINED</Label>
+      </View>
+    </View>
+
+    <View id="comments_row">
+      <ImageView id="bubble_icon"/>
+      <Label id="comments_count"/>
+    </View>
+    <View id="comments_box">
+        <Label id="more_comments">SEE ALL WHO JOINED</Label>
     </View>
   </Window>
 </Alloy>
