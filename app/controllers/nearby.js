@@ -19,15 +19,15 @@ var games = [
     nearby_user: {id: '007', name: 'Saad Malik',
     photo: '/images/profile-photo.png', timestamp: 1353561484625 }
   },
-  {id: '12345', sport: "basketball", spots: '7/10', distance: '0.8', comment_count: 0,
+  {id: '12345', sport: "paintball", spots: '7/10', distance: '0.8', comment_count: 0,
     nearby_user: {id: '007', name: 'Saad Malik',
     photo: '/images/profile-photo.png', timestamp: 1353061484625 }
   },
-  {id: '12345', sport: "soccer", spots: '15/16', distance: '1.2', comment_count: 7,
+  {id: '12345', sport: "tennis", spots: '15/16', distance: '1.2', comment_count: 7,
     nearby_user: {id: '007', name: 'Saad Malik',
     photo: '/images/profile-photo.png', timestamp: 1352861484625 }
   },
-  {id: '12345', sport: "basketball", spots: '3/10', distance: '1.9', comment_count: 2,
+  {id: '12345', sport: "hockey", spots: '3/10', distance: '1.9', comment_count: 2,
     nearby_user: {id: '007', name: 'Saad Malik',
     photo: '/images/profile-photo.png', timestamp: 1352261484625 }
   }
