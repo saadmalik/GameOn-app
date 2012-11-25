@@ -1,7 +1,7 @@
 <Alloy>
   <Tab title="Profile" id="profileTab">
     <Window title="Profile" id="profileWindow">
-      <Label>Peace out, yo</Label>
+      <View ns="Ti.Map" id="map"/> 
     </Window>
   </Tab>
 </Alloy>

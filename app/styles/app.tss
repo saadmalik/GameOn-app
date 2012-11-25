@@ -2,7 +2,13 @@
   width: Ti.UI.FILL,
   height: Ti.UI.FILL,
   backgroundImage: "/images/bg-noise-pattern.png",
-  backgroundRepeat: true
+  backgroundRepeat: true,
+  barImage: '/images/titleBar.png',
+},
+
+"Tab": {
+  backgroundColor: '#444',
+  backgroundFocusedColor: '#222'
 },
 
 ".line": {
