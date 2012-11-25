@@ -7,9 +7,7 @@ var args = arguments[0] || {};
 // Necessary calculations
 var timestamp = new Date(args.nearby_user.timestamp);
 var date = datetime.formatAsShort(timestamp);
-if (date.indexOf('/') < 0) {
-  date += ' @ ' + datetime.getTime(timestamp);
-}
+date += ' at ' + datetime.getTime(timestamp);
 var sport = args.sport;
 sport = sport.charAt(0).toUpperCase() + sport.slice(1);
 
