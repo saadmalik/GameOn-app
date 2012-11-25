@@ -1,11 +1,18 @@
 {
 	"global": {
-    api_url: 'http://localhost:3000/'
-    api_key: 'http://localhost:3000/'
   },
-	"env:development": {},
-	"env:test": {},
-	"env:production": {},
+	"env:development": {
+    "api_url": "http://localhost:3000/",
+    "api_key": "key goes here"
+  },
+	"env:test": {
+    "api_url": "http://localhost:3000/",
+    "api_key": "key goes here"
+  },
+	"env:production": {
+    "api_url": "http://localhost:3000/",
+    "api_key": "key goes here"
+  },
 	"os:ios": {},
 	"os:android": {},
 	"dependencies": {}
