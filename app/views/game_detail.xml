@@ -1,0 +1,23 @@
+<Alloy>
+  <Window id="gameDetail">
+    <View class="gameText">
+      <View id="topRow">
+        <ImageView id="profile_photo"/>
+        <Label id="name"/>
+        <View id="joinRow">
+          <Label id="action"/>
+          <Label id="game_type"/>
+        </View>
+        <View id="timeRow">
+          <ImageView id="clock_icon"/>
+          <Label id="date_time"/>
+        </View>
+        <ImageView id="sport_icon"/>
+      </View>
+      <View class="hr"/>
+      <Label id="gameDesc"/>
+      <View class="hr"/>
+      <Button id="joinBtn"/>
+    </View>
+  </Window>
+</Alloy>
