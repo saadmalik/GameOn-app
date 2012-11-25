@@ -9,7 +9,7 @@ if (OS_IOS) {
 var games = [
   {id: '12345', sport: "soccer", spots: '10/15', distance: '0.1', comment_count: 5,
     nearby_user: {id: '007', name: 'Saad Malik',
-    photo: '/images/profile-photo.png', timestamp: 1351923356284 }
+    photo: '/images/profile-photo.png', timestamp: 1353779981000 }
   },
   {id: '12345', sport: "soccer", spots: '11/12', distance: '0.2', comment_count: 1,
     nearby_user: {id: '007', name: 'Saad Malik',
@@ -25,7 +25,7 @@ var games = [
   },
   {id: '12345', sport: "soccer", spots: '3/10', distance: '1.9', comment_count: 2,
     nearby_user: {id: '007', name: 'Saad Malik',
-    photo: '/images/profile-photo.png', timestamp: 1350623356284 }
+    photo: '/images/profile-photo.png', timestamp: 1350653356284 }
   }
 ];
 
