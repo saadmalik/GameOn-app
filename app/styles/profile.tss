@@ -3,4 +3,8 @@
 },
 
 "#map": {
+},
+
+"#profileTab": {
+  icon:"images/tabbar_icons/profile.png"
 }

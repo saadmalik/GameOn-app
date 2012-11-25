@@ -27,11 +27,11 @@
 
 "#pin_icon": {
   image: '/images/geoPin.png',
-  height: '9dp'
+  height: '8dp'
 },
 
 "#distance": {
-  left: '1dp',
+  left: '2dp',
   color: '#b4b1b1',
   font: {
     fontSize: '11dp',
@@ -40,13 +40,14 @@
 },
 
 "#people_icon": {
-  left: '3dp',
+  left: '6dp',
   image: '/images/user.png',
-  height: '9dp'
+  height: '8dp'
 },
 
 "#headcount": {
   color: '#b4b1b1',
+  left: '1dp',
   font: {
     fontSize: '11dp',
     fontFamily: 'Helvetica Neue'
@@ -63,8 +64,8 @@
 
 "#clock_icon": {
   image: '/images/clock.png',
-  width: '11dp',
-  bottom: '4dp',
+  width: '10dp',
+  bottom: '10dp',
   left: '4dp'
 },
 
@@ -126,7 +127,7 @@
     fontSize: 12,
     fontFamily: 'Helvetica Neue'
   },
-  text: 'joined a game of '
+  text: 'created a game of '
 },
 
 "#game_type": {
