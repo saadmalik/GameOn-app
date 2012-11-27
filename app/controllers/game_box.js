@@ -30,6 +30,6 @@ $.headcount.text = args.spots;
 /* Action to take when a game is clicked */
 function gameClick(e) {
   //alert(sport);
-  var foo = Alloy.createController('test').getView();
+  var foo = Alloy.createController('game_detail', args).getView();
   Alloy.globals.tabgroup.activeTab.open(foo);
 }
