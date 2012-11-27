@@ -1,3 +1,5 @@
+Alloy.globals.tab2 = $.myGamesTab;
+
 /* Add create game button for iOS */
 if (OS_IOS) {
   $.myGamesWindow.rightNavButton = Ti.UI.createButton({

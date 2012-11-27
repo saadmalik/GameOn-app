@@ -1,3 +1,4 @@
+Alloy.globals.tab1 = $.nearbyTab;
 /* Add create game button for iOS */
 if (OS_IOS) {
   $.nearbyWindow.rightNavButton = Ti.UI.createButton({
