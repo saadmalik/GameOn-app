@@ -27,7 +27,8 @@
 
 "#pin_icon": {
   image: '/images/geoPin.png',
-  height: '8dp'
+  height: '8dp',
+  left: '2dp'
 },
 
 "#distance": {
@@ -98,10 +99,10 @@
 },
 
 "#profile_photo": {
-  width: '50dp',
-  height: '50dp',
-  left: '17dp',
-  top: '5dp'
+  width: '45dp',
+  height: '45dp',
+  left: '18dp',
+  top: '8dp'
 },
 
 "#name": {

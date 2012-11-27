@@ -14,23 +14,23 @@ if (OS_IOS) {
 var games = [
   {id: '12345', sport: "basketball", spots: '10/15', distance: '0.1', comment_count: 5,
     nearby_user: {id: '007', name: 'Saad Malik',
-    photo: '/images/profile-photo.png', timestamp: 1353861484625 }
+    photo: '/images/profilePhotoSaad.png', timestamp: 1353861484625 }
   },
   {id: '12345', sport: "soccer", spots: '11/12', distance: '0.2', comment_count: 1,
-    nearby_user: {id: '007', name: 'Saad Malik',
-    photo: '/images/profile-photo.png', timestamp: 1353561484625 }
+    nearby_user: {id: '007', name: 'Imran Jawed',
+    photo: '/images/profilePhotoImran.png', timestamp: 1353561484625 }
   },
   {id: '12345', sport: "paintball", spots: '7/10', distance: '0.8', comment_count: 0,
-    nearby_user: {id: '007', name: 'Saad Malik',
-    photo: '/images/profile-photo.png', timestamp: 1353061484625 }
+    nearby_user: {id: '007', name: 'Bilal Quadri',
+    photo: '/images/profilePhotoBilal.png', timestamp: 1353061484625 }
   },
   {id: '12345', sport: "tennis", spots: '15/16', distance: '1.2', comment_count: 7,
-    nearby_user: {id: '007', name: 'Saad Malik',
-    photo: '/images/profile-photo.png', timestamp: 1352861484625 }
+    nearby_user: {id: '007', name: 'Shomail Malik',
+    photo: '/images/profilePhotoShomail.png', timestamp: 1352861484625 }
   },
   {id: '12345', sport: "hockey", spots: '3/10', distance: '1.9', comment_count: 2,
     nearby_user: {id: '007', name: 'Saad Malik',
-    photo: '/images/profile-photo.png', timestamp: 1352261484625 }
+    photo: '/images/profilePhotoSaad.png', timestamp: 1352261484625 }
   }
 ];
 
