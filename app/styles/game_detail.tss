@@ -1,3 +1,18 @@
 ".container": {
 	backgroundColor: "white"
+},
+"#top_row": {
+  top: '37dp',
+  left: '8dp',
+  backgroundImage: '/images/game_detail/gameDetailBoxBg.png',
+  layout: 'horizontal',
+  height: '184dp',
+  width: '305dp'
+},
+"#profile_photo": {
+  width: '45dp',
+  height: '45dp',
+  left: '8dp',
+  top: '8dp',	
+  backgroundImage: '/images/game_detail/profilePhotoSaad.png'
 }
