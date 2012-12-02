@@ -1,16 +1,12 @@
 Mobile
 ======
 ##Design
-* Complete games listing views
-
-##Code
-* Separate game list view and require in nearby & my games
-* Build game detail view
+* Complete game detail window
+* Create login and registration windows
 
 Server
 ======
-* Test login/register APIs
-* Create game API
-* Get nearby games API
-* Get game detail API 
+* Store/generate sessions
+* Authenticate requests using sessions
+* Get nearby games
 
