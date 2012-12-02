@@ -4,10 +4,12 @@
     <View class="game_text">
       <View id="top_row">
         <ImageView id="profile_photo"/>
-        <Label id="name"/>
-        <View id="join_row">
-          <Label id="action"/>
-          <Label id="game_type"/>
+        <View id="user_info">
+          <Label id="name"/>
+          <View id="address_row">
+            <ImageView id="address_icon"/>
+            <Label id="address"/>
+          </View>
         </View>
         <View id="time_row">
           <ImageView id="clock_icon"/>

@@ -1,6 +1,7 @@
 ".container": {
 	backgroundColor: "white"
 },
+
 "#top_row": {
   top: '37dp',
   left: '8dp',
@@ -9,6 +10,7 @@
   height: '184dp',
   width: '305dp'
 },
+
 "#profile_photo": {
   width: '45dp',
   height: '45dp',
@@ -16,14 +18,66 @@
   top: '8dp',	
   backgroundImage: '/images/game_detail/profilePhotoSaad.png'
 },
+
+"#user_info": {
+  layout: 'vertical',
+  left: '5dp',
+  top: '5dp'
+},
+
 "#name": {
   text: 'Saad Malik',
+  left: 0,
   color: '#666666',
-  top: '5dp',
-  left: '5dp',
   font: {
     fontSize: '13pt',
     fontFamily: 'Helvetica Neue',
     fontWeight: 'bold'
+  }
+},
+
+"#join_row": {
+  layout: 'horizontal'
+},
+
+"#address_row": {
+  layout: 'horizontal'
+},
+
+"#address": {
+  left: 0,
+  text: '130 Remsen Ave, Avenel, NJ',
+  color: '#959595',
+  font: {
+    fontSize: '12pt',
+    fontFamily: 'Helvetica Neue',
+  }
+},
+
+"#address_icon": {
+  left: 0,
+  image: 'images/game_detail/geoPin.png',
+  height: '10dp',
+  width: '12dp'
+},
+
+"#time_row": {
+  layout: 'horizontal'
+},
+
+"#clock_icon": {
+  left: 0,
+  image: 'images/game_detail/clock.png',
+  height: '9dp',
+  width: '9dp'
+},
+
+"#date_time": {
+  left: 0,
+  text: 'Today at 8pm',
+  color: '#959595',
+  font: {
+    fontSize: '12pt',
+    fontFamily: 'Helvetica Neue',
   }
 }
