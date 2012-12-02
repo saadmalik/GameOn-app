@@ -15,4 +15,15 @@
   left: '8dp',
   top: '8dp',	
   backgroundImage: '/images/game_detail/profilePhotoSaad.png'
+},
+"#name": {
+  text: 'Saad Malik',
+  color: '#666666',
+  top: '5dp',
+  left: '5dp',
+  font: {
+    fontSize: '13pt',
+    fontFamily: 'Helvetica Neue',
+    fontWeight: 'bold'
+  }
 }

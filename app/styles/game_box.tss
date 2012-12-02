@@ -110,7 +110,7 @@
   top: '5dp',
   color: '#666666',
   font: {
-    fontSize: 13pt,
+    fontSize: '13pt',
     fontFamily: 'Helvetica Neue',
     fontWeight: 'bold'
   }
@@ -125,7 +125,7 @@
 "#action": {
   color: '#959595',
   font: {
-    fontSize: 12pt,
+    fontSize: '12pt',
     fontFamily: 'Helvetica Neue'
   },
   text: 'created a game of '
@@ -134,7 +134,7 @@
 "#game_type": {
   color: '#959595',
   font: {
-    fontSize: 12pt,
+    fontSize: '12pt',
     fontFamily:'Helvetica Neue',
     fontWeight: 'bold'
   }
