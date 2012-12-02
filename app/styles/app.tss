@@ -7,8 +7,6 @@
 },
 
 "Tab": {
-  backgroundColor: '#444',
-  backgroundFocusedColor: '#222'
 },
 
 ".line": {
@@ -26,3 +24,5 @@
   opacity: 1,
   zIndex: 99
 }
+
+
