@@ -1,5 +1,5 @@
 <Alloy>
-  <Window id="gameDetail">
+  <Window title="Game Details" id="gameDetail">
 
     <View class="game_text">
       <View id="top_row">
@@ -36,7 +36,7 @@
       <Label id="comments_count"/>
     </View>
     <View id="comments_box">
-        <Label id="more_comments">SEE ALL WHO JOINED</Label>
+        <Label id="more_comments">MORE COMMENTS</Label>
     </View>
   </Window>
 </Alloy>
