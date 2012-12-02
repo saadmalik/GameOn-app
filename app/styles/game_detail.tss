@@ -80,4 +80,11 @@
     fontSize: '12pt',
     fontFamily: 'Helvetica Neue',
   }
+},
+
+"#sport_icon": {
+  image: 'images/game_detail/sport_icons/soccer.png',
+  width: '39dp',
+  height: '39dp',
+  zIndex: '999'
 }
