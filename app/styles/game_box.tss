@@ -35,7 +35,7 @@
   left: '2dp',
   color: '#b4b1b1',
   font: {
-    fontSize: '11dp',
+    fontSize: '11pt',
     fontFamily: 'Helvetica Neue'
   },
 },
@@ -50,7 +50,7 @@
   color: '#b4b1b1',
   left: '1dp',
   font: {
-    fontSize: '11dp',
+    fontSize: '11pt',
     fontFamily: 'Helvetica Neue'
   },
 },
@@ -75,7 +75,7 @@
   bottom: '6dp',
   color: '#b4b1b1',
   font: {
-    fontSize: '13dp',
+    fontSize: '13pt',
     fontFamily: 'Helvetica Neue'
   }
 },
@@ -90,7 +90,7 @@
 
 "#comment_count": {
   font: {
-    fontSize: '11dp',
+    fontSize: '11pt',
     fontFamily: 'Helvetica Neue'
   },
   color: '#b4b1b1',
@@ -110,7 +110,7 @@
   top: '5dp',
   color: '#666666',
   font: {
-    fontSize: 13,
+    fontSize: 13pt,
     fontFamily: 'Helvetica Neue',
     fontWeight: 'bold'
   }
@@ -125,7 +125,7 @@
 "#action": {
   color: '#959595',
   font: {
-    fontSize: 12,
+    fontSize: 12pt,
     fontFamily: 'Helvetica Neue'
   },
   text: 'created a game of '
@@ -134,7 +134,7 @@
 "#game_type": {
   color: '#959595',
   font: {
-    fontSize: 12,
+    fontSize: 12pt,
     fontFamily:'Helvetica Neue',
     fontWeight: 'bold'
   }
