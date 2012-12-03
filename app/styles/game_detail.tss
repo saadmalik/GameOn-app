@@ -1,28 +1,30 @@
-".container": {
-	backgroundColor: "white"
+"#gameDetail": {
+},
+
+".row": {
+  layout: 'horizontal'
 },
 
 "#top_row": {
   top: '37dp',
   left: '8dp',
   backgroundImage: '/images/game_detail/gameDetailBoxBg.png',
-  layout: 'horizontal',
   height: '184dp',
   width: '305dp'
-},
-
-"#profile_photo": {
-  width: '45dp',
-  height: '45dp',
-  left: '8dp',
-  top: '8dp',	
-  backgroundImage: '/images/game_detail/profilePhotoSaad.png'
 },
 
 "#user_info": {
   layout: 'vertical',
   left: '5dp',
   top: '5dp'
+},
+
+"#profile_photo": {
+  width: '45dp',
+  height: '45dp',
+  left: '8dp',
+  top: '8dp',
+  backgroundImage: '/images/game_detail/profilePhotoSaad.png'
 },
 
 "#name": {
@@ -41,7 +43,10 @@
 },
 
 "#address_row": {
-  layout: 'horizontal'
+  left: 0,
+  layout: 'horizontal',
+  height: Ti.UI.SIZE,
+  width: Ti.UI.SIZE
 },
 
 "#address": {
@@ -57,23 +62,23 @@
 "#address_icon": {
   left: 0,
   image: 'images/game_detail/geoPin.png',
-  height: '10dp',
-  width: '12dp'
+  width: '6dp',
+  height: '10dp'
 },
 
 "#time_row": {
-  layout: 'horizontal'
+  left: 0,
+  layout: 'horizontal',
+  width: Ti.UI.SIZE,
 },
 
 "#clock_icon": {
-  left: 0,
-  image: 'images/game_detail/clock.png',
+  image: '/images/game_detail/clock.png',
   height: '9dp',
   width: '9dp'
 },
 
 "#date_time": {
-  left: 0,
   text: 'Today at 8pm',
   color: '#959595',
   font: {

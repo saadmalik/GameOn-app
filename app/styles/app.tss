@@ -1,8 +1,7 @@
 "Window": {
   width: Ti.UI.FILL,
   height: Ti.UI.FILL,
-  backgroundImage: "/images/bg-noise-pattern.png",
-  backgroundRepeat: true,
+  backgroundImage: "/images/bg_noise_pattern.png",
   barImage: '/images/titleBar.png',
 },
 

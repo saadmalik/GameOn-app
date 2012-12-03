@@ -1,8 +1,7 @@
 <Alloy>
   <Window title="Game Details" id="gameDetail">
-
-    <View class="game_text">
-      <View id="top_row">
+    <View id="game_text">
+      <View id="top_row" class="row">
         <ImageView id="profile_photo"/>
         <View id="user_info">
           <Label id="name"/>
@@ -10,10 +9,10 @@
             <ImageView id="address_icon"/>
             <Label id="address"/>
           </View>
-        </View>
-        <View id="time_row">
-          <ImageView id="clock_icon"/>
-          <Label id="date_time"/>
+          <View id="time_row" class="row">
+            <ImageView id="clock_icon"/>
+            <Label id="date_time"/>
+          </View>
         </View>
         <ImageView id="sport_icon"/>
       </View>
