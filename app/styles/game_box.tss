@@ -27,15 +27,17 @@
 
 "#pin_icon": {
   image: '/images/geoPin.png',
-  height: '8dp',
+  width: '6dp',
+  height: '10dp',
   left: '2dp'
 },
 
 "#distance": {
   left: '2dp',
+  top: '1dp',
   color: '#b4b1b1',
   font: {
-    fontSize: '11pt',
+    fontSize: '12pt',
     fontFamily: 'Helvetica Neue'
   },
 },
@@ -43,14 +45,16 @@
 "#people_icon": {
   left: '6dp',
   image: '/images/user.png',
-  height: '8dp'
+  width: '11dp',
+  height: '10dp'
 },
 
 "#headcount": {
   color: '#b4b1b1',
-  left: '1dp',
+  left: '2dp',
+  top: '1dp',
   font: {
-    fontSize: '11pt',
+    fontSize: '12pt',
     fontFamily: 'Helvetica Neue'
   },
 },

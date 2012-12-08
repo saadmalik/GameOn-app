@@ -8,6 +8,11 @@ if (OS_IOS) {
     height: '29dp',
     font: {fontSize: '12dp', fontWeight: 'bold'}
   });
+  $.nearbyWindow.leftNavButton = Ti.UI.createButton({
+    backgroundImage: '/images/ios/refresh.png',
+    width: '35dp',
+    height: '30dp'
+  });
 }
 
 /* Sample Games Response */
