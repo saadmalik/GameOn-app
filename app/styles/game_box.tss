@@ -22,7 +22,7 @@
 "#counts": {
   layout: 'horizontal',
   top: '42dp',
-  left: '71dp'
+  left: '78dp'
 },
 
 "#pin_icon": {
@@ -99,14 +99,14 @@
 },
 
 "#profile_photo": {
-  width: '45dp',
-  height: '45dp',
+  width: '54dp',
+  height: '54dp',
   left: '19dp',
   top: '6dp'
 },
 
 "#name": {
-  left: '70dp',
+  left: '78dp',
   top: '5dp',
   color: '#666666',
   font: {
@@ -117,7 +117,7 @@
 },
 
 "#description": {
-  left: '70dp',
+  left: '78dp',
   top: '21dp',
   layout: 'horizontal'
 },

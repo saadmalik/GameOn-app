@@ -16,12 +16,12 @@
 "#user_info": {
   layout: 'vertical',
   left: '5dp',
-  top: '5dp'
+  top: '6dp'
 },
 
 "#profile_photo": {
-  width: '45dp',
-  height: '45dp',
+  width: '50dp',
+  height: '50dp',
   left: '8dp',
   top: '8dp',
   image: '/images/game_detail/profilePhotoSaad.png'
@@ -44,6 +44,7 @@
 
 "#address_row": {
   left: 0,
+  top: '2dp',
   layout: 'horizontal',
   height: Ti.UI.SIZE,
   width: Ti.UI.SIZE
