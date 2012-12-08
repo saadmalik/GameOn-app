@@ -11,7 +11,7 @@ if (OS_IOS) {
     font: {fontSize: '12dp', fontWeight: 'bold'}
   });
   leftButton.addEventListener('click', function(){
-    Alloy.globals.tabgroup.activeTab.close($.gameDetail);
+    Alloy.globals.tabgroup.activeTab.close($.gameDetail, {animated: true});
   });
   $.gameDetail.leftNavButton = leftButton;
 
