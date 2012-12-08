@@ -99,7 +99,7 @@
 
 "#sport_icon": {
   image: '/images/game_detail/sport_icons/soccer.png',
-  left: '25dp',
+  left: '30dp',
   top: '10dp',
   width: '39dp',
   height: '39dp',
