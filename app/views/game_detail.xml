@@ -17,9 +17,11 @@
         <ImageView id="sport_icon"/>
       </View>
       <View class="hr"/>
-      <Label id="game_desc"/>
+      <Label id="game_desc">
+        Please bring a red and blue shirt. If you don't bring one, you will be made fun of for being slow. Cogito Ergo Sum
+      </Label>
       <View class="hr"/>
-      <Button id="join_btn">Join</Button>
+      <Button id="join_btn">JOIN GAME</Button>
     </View>
 
     <View id="headcount_row">
