@@ -101,12 +101,12 @@
 "#profile_photo": {
   width: '45dp',
   height: '45dp',
-  left: '18dp',
-  top: '8dp'
+  left: '19dp',
+  top: '6dp'
 },
 
 "#name": {
-  left: '73dp',
+  left: '70dp',
   top: '5dp',
   color: '#666666',
   font: {
@@ -117,7 +117,7 @@
 },
 
 "#description": {
-  left: '73dp',
+  left: '70dp',
   top: '21dp',
   layout: 'horizontal'
 },
