@@ -19,7 +19,7 @@
       <View class="hr"/>
       <Label id="game_desc"/>
       <View class="hr"/>
-      <Button id="join_btn"/>
+      <Button id="join_btn">Join</Button>
     </View>
 
     <View id="headcount_row">
