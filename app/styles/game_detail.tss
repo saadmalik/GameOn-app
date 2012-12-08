@@ -1,6 +1,15 @@
 "#gameDetail": {
 },
 
+".hr": {
+  top: '2dp',
+  bottom: '2dp',
+  left: '10dp',
+  right: '10dp',
+  height: '1dp',
+  backgroundColor: '#e0e0e0'
+},
+
 ".row": {
   layout: 'horizontal'
 },
