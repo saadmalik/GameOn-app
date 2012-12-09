@@ -2,10 +2,9 @@
 },
 
 ".hr": {
-  top: '2dp',
-  bottom: '2dp',
-  left: '10dp',
-  right: '10dp',
+  top: '8dp',
+  left: '8dp',
+  right: '8dp',
   height: '1dp',
   backgroundColor: '#e0e0e0'
 },
@@ -112,4 +111,21 @@
   top: '10dp',
   width: '39dp',
   height: '39dp',
+},
+
+"#game_desc": {
+  left: '8dp',
+  top: '8dp',
+  font: {
+    fontSize: '12pt',
+    fontFamily: 'Helvetica Neue'
+  },
+  color: '#666666'
+},
+
+"#join_btn": {
+  image: '/images/game_detail/join_game_button.png',
+  width: '287dp',
+  height: '33dp',
+  top: '8dp'
 }
