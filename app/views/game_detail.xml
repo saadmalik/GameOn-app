@@ -1,5 +1,11 @@
 <Alloy>
   <Window title="Game Details" id="gameDetail">
+    <LeftNavButton>
+      <Button id="leftButton" title="Back" onClick="popWindow" />
+    </LeftNavButton>
+    <RightNavButton>
+      <Button id="rightButton" />
+    </RightNavButton>
     <View id="game_text">
       <View id="top_row" class="row">
         <ImageView id="profile_photo"/>

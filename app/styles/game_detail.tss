@@ -1,6 +1,19 @@
 "#gameDetail": {
 },
 
+"#leftButton": {
+  backgroundImage: '/images/game_detail/backButton.png',
+  width: '58dp',
+  height: '29dp',
+  font: {fontSize: '12dp', fontWeight: 'bold'}
+},
+
+"#rightButton": {
+  backgroundImage: '/images/game_detail/share.png',
+  width: '43dp',
+  height: '29dp'
+},
+
 ".hr": {
   top: '8dp',
   left: '8dp',
