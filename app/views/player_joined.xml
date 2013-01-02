@@ -1,0 +1,6 @@
+<Alloy>
+  <View id="player_info">
+	  <ImageView id="player_avatar"/>
+	  <Label id="player_name">Bilal Quadri</Label>
+  </View>
+</Alloy>

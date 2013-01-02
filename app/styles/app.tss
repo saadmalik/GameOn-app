@@ -19,6 +19,7 @@
 "#scroller": {
   layout: 'vertical',
   contentHeight: 'auto',
+  contentWidth: '100%',
   scrollType: 'vertical',
   opacity: 1,
   zIndex: 99

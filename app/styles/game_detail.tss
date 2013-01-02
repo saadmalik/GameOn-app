@@ -26,12 +26,29 @@
   layout: 'horizontal'
 },
 
+"#map_view": {
+  mapType: Titanium.Map.STANDARD_TYPE,
+  region: {
+    latitude:40.578585, longitude:-74.290932, 
+    latitudeDelta:0.01, longitudeDelta:0.01
+  },
+  animate: true,
+  regionFit: true,
+  userLocation: true,
+  width: '322dp',
+  height: '90dp',
+  top: '-1dp',
+  layout:'vertical',
+  borderColor: '#959595',
+  borderWidth: '1'
+},
+
 "#game_text": {
   layout: 'vertical',
   backgroundImage: '/images/game_detail/gameDetailBoxBg.png',
   width: '305dp',
   height: '184dp',
-  top: '37dp',
+  top: '10dp',
   left: '8dp'
 },
 
@@ -109,7 +126,6 @@
 },
 
 "#date_time": {
-  text: 'Today at 8pm',
   color: '#959595',
   left: '2dp',
   font: {
@@ -141,4 +157,118 @@
   width: '287dp',
   height: '33dp',
   top: '8dp'
+},
+
+"#headcount_row": {
+  layout: 'horizontal',
+  top: '10dp',
+  left: '10dp',
+  height: Ti.UI.SIZE
+
+},
+
+"#people_icon": {
+  image: '/images/game_detail/user.png',
+  width: '11dp',
+  height: '10dp'
+},
+
+"#headcount": {
+  font: {
+    fontSize: '12pt',
+    fontFamily: 'Helvetica Neue'
+  },
+  color: '#959595',
+  left: '2dp',
+  top: '1dp'
+},
+
+"#people_box": {
+  backgroundImage: '/images/game_detail/peopleJoinedBoxBg.png',
+  width: '305dp',
+  height: '131dp',
+  top: '10dp'
+},
+
+"#people_joined_row": {
+  top: 0,
+  layout: 'horizontal',
+  left: '2%',
+  bottom: '30dp'
+},
+
+"#people_bottom_row": {
+  bottom: 0,
+  height: '30dp'
+},
+
+"#see_all_joined": {
+  bottom: '6dp',
+  font: {
+    fontSize: '14pt',
+    fontFamily: 'Helvetica Neue'
+  },
+  color: '#666666',
+},
+
+"#comments_row": {
+  layout: 'horizontal',
+  top: '10dp',
+  left: '10dp',
+  height: Ti.UI.SIZE
+},
+
+"#bubble_icon": {
+  image: '/images/game_detail/commentBubble.png',
+  width: '11dp',
+  height: '10dp'
+},
+
+"#comments_count": {
+  font: {
+    fontSize: '12pt',
+    fontFamily: 'Helvetica Neue'
+  },
+  color: '#959595',
+  left: '2dp',
+  top: '1dp'
+},
+
+"#comments_box": {
+  backgroundImage: '/images/game_detail/commentsBoxBg.png',
+  width: '305dp',
+  height: '156dp',
+  top: '10dp'
+},
+
+"#comments_bottom_row": {
+  bottom: 0,
+  height: '30dp'
+},
+
+"#more_comments": {
+  bottom: '6dp',
+  font: {
+    fontSize: '14pt',
+    fontFamily: 'Helvetica Neue'
+  },
+  color: '#666666',
+},
+
+"#comments_text": {
+  top: 0,
+  layout: 'vertical',
+  bottom: '30dp'
+},
+
+"#comment": {
+  font: {
+    fontSize: '12pt',
+    fontFamily: 'Helvetica Neue'
+  },
+  color: '#666',
+  height: Ti.UI.SIZE,
+  width: Ti.UI.SIZE,
+  top: '10dp',
+  left: '10dp'
 }

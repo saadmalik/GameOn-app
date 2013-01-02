@@ -6,46 +6,63 @@
     <RightNavButton>
       <Button id="rightButton" />
     </RightNavButton>
-    <View id="game_text">
-      <View id="top_row" class="row">
-        <ImageView id="profile_photo"/>
-        <View id="user_info">
-          <Label id="name"/>
-          <View id="address_row">
-            <ImageView id="address_icon"/>
-            <Label id="address"/>
+    <ScrollView id="scroller">
+      <View ns="Ti.Map" id="map_view" />
+      <View id="game_text">
+        <View id="top_row" class="row">
+          <ImageView id="profile_photo"/>
+          <View id="user_info">
+            <Label id="name"/>
+            <View id="address_row">
+              <ImageView id="address_icon"/>
+              <Label id="address"/>
+            </View>
+            <View id="time_row" class="row">
+              <ImageView id="clock_icon"/>
+              <Label id="date_time">Today at 8pm</Label>
+            </View>
           </View>
-          <View id="time_row" class="row">
-            <ImageView id="clock_icon"/>
-            <Label id="date_time"/>
-          </View>
+          <ImageView id="sport_icon"/>
         </View>
-        <ImageView id="sport_icon"/>
+        <View class="hr"/>
+        <Label id="game_desc">
+          Please bring a red and blue shirt. If you don't bring one, you will be made fun of for being slow. Cogito Ergo Sum
+        </Label>
+        <View class="hr"/>s
+        <Button id="join_btn">JOIN GAME</Button>
       </View>
-      <View class="hr"/>
-      <Label id="game_desc">
-        Please bring a red and blue shirt. If you don't bring one, you will be made fun of for being slow. Cogito Ergo Sum
-      </Label>
-      <View class="hr"/>
-      <Button id="join_btn">JOIN GAME</Button>
-    </View>
 
-    <View id="headcount_row">
-      <ImageView id="people_icon"/>
-      <Label id="headcount"/>
-    </View>
-    <View id="people_box">
-      <View id="people_bottom_row">
-        <Label id="see_all_joined">SEE ALL WHO JOINED</Label>
+      <View id="headcount_row">
+        <ImageView id="people_icon"/>
+        <Label id="headcount">11/15 have joined</Label>
       </View>
-    </View>
+      <View id="people_box">
+        <View id="people_joined_row"> 
+          <Require src="player_joined"/>
+          <Require src="player_joined"/>
+          <Require src="player_joined"/>
+          <Require src="player_joined"/>
+          <Require src="player_joined"/>
+        </View>
+        <View id="people_bottom_row">
+          <Label id="see_all_joined">SEE ALL WHO JOINED</Label>
+        </View>
+      </View>
 
-    <View id="comments_row">
-      <ImageView id="bubble_icon"/>
-      <Label id="comments_count"/>
-    </View>
-    <View id="comments_box">
-        <Label id="more_comments">MORE COMMENTS</Label>
-    </View>
+      <View id="comments_row">
+        <ImageView id="bubble_icon"/>
+        <Label id="comments_count">5 Comments</Label>
+      </View>
+      <View id="comments_box">
+        <View id="comments_text">
+          <Label id="comment">Bilal Q. Looking forward to an amazing game.</Label>
+          <Label id="comment">Saad M. Competition looks to be pretty good. I can’t wait to get on the field.</Label>
+          <Label id="comment">Imran J. I’ve never played soccer a day in my life.  Hope I don’t score in my own goal.</Label>
+        </View>
+        <View id="comments_bottom_row">
+          <Label id="more_comments">MORE COMMENTS</Label>
+        </View>
+      </View>
+  </ScrollView>
   </Window>
 </Alloy>
