@@ -7,7 +7,10 @@
       <Button id="rightButton" />
     </RightNavButton>
     <ScrollView id="scroller">
-      <View ns="Ti.Map" id="map_view" />
+      <View id="top_items">
+        <Label id="let_go"/>
+        <View ns="Ti.Map" id="map_view" />
+      </View>
       <View id="game_text">
         <View id="top_row" class="row">
           <ImageView id="profile_photo"/>

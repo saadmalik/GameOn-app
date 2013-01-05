@@ -26,19 +26,35 @@
   layout: 'horizontal'
 },
 
+"#top_items": {
+  layout: 'vertical',
+  top: '-70dp',
+  width: Ti.UI.SIZE,
+  height: Ti.UI.SIZE
+},
+
+"#let_go": {
+  text: 'Hey, you can let go now!',
+  textAlign: 'center',
+  font: {
+    fontSize: '12pt',
+    fontFamily: 'Helvetica Neue',
+  },
+  color: '#666666',  
+  bottom: '30dp'
+},
+
 "#map_view": {
   mapType: Titanium.Map.STANDARD_TYPE,
   region: {
-    latitude:40.578585, longitude:-74.290932, 
-    latitudeDelta:0.01, longitudeDelta:0.01
+    latitude:40.584867, longitude:-74.303923, 
+    latitudeDelta:0.02, longitudeDelta:0.02
   },
   animate: true,
   regionFit: true,
   userLocation: true,
   width: '322dp',
-  height: '90dp',
-  top: '-1dp',
-  layout:'vertical',
+  height: '150dp',
   borderColor: '#959595',
   borderWidth: '1'
 },
@@ -98,7 +114,7 @@
 
 "#address": {
   left: '2dp',
-  text: '130 Remsen Ave, Avenel, NJ',
+  text: 'Merril Park, Colonia, NJ',
   color: '#959595',
   font: {
     fontSize: '12pt',
@@ -136,7 +152,7 @@
 
 "#sport_icon": {
   image: '/images/game_detail/sport_icons/soccer.png',
-  left: '30dp',
+  left: '58dp',
   top: '10dp',
   width: '39dp',
   height: '39dp',
@@ -238,7 +254,8 @@
   backgroundImage: '/images/game_detail/commentsBoxBg.png',
   width: '305dp',
   height: '156dp',
-  top: '10dp'
+  top: '10dp',
+  bottom: '10dp'
 },
 
 "#comments_bottom_row": {
