@@ -40,14 +40,14 @@
     fontSize: '12pt',
     fontFamily: 'Helvetica Neue',
   },
-  color: '#666666',  
+  color: '#666666',
   bottom: '30dp'
 },
 
 "#map_view": {
   mapType: Titanium.Map.STANDARD_TYPE,
   region: {
-    latitude:40.584867, longitude:-74.303923, 
+    latitude:40.584867, longitude:-74.303923,
     latitudeDelta:0.02, longitudeDelta:0.02
   },
   animate: true,

@@ -40,7 +40,7 @@
         <Label id="headcount">11/15 have joined</Label>
       </View>
       <View id="people_box">
-        <View id="people_joined_row"> 
+        <View id="people_joined_row">
           <Require src="player_joined"/>
           <Require src="player_joined"/>
           <Require src="player_joined"/>
@@ -66,6 +66,6 @@
           <Label id="more_comments">MORE COMMENTS</Label>
         </View>
       </View>
-  </ScrollView>
+    </ScrollView>
   </Window>
 </Alloy>
