@@ -53,10 +53,10 @@ function leaveGame(game){
 function changeBtnState(e) {
   if ($.btnJoinLeave.joined) {
     leaveGame();
-    $.btnJoinLeave.image = '/images/game_detail/joinGameButton.png';
+    $.btnJoinLeave.backgroundImage = '/images/game_detail/joinGameButton.png';
   } else {
     joinGame();
-    $.btnJoinLeave.image = '/images/game_detail/leaveGameButton.png';
+    $.btnJoinLeave.backgroundImage = '/images/game_detail/leaveGameButton.png';
   }
   $.btnJoinLeave.joined = ! ($.btnJoinLeave.joined);
 

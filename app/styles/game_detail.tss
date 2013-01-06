@@ -169,7 +169,7 @@
 },
 
 "#btnJoinLeave": {
-  image: '/images/game_detail/joinGameButton.png',
+  backgroundImage: '/images/game_detail/joinGameButton.png',
   width: '287dp',
   height: '33dp',
   top: '8dp'

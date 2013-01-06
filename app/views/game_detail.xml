@@ -32,7 +32,7 @@
           Please bring a red and blue shirt. If you don't bring one, you will be made fun of for being slow. Cogito Ergo Sum
         </Label>
         <View class="hr"/>
-        <Button id="btnJoinLeave" onClick="changeBtnState">Join</Button>
+        <Button id="btnJoinLeave" onClick="changeBtnState"/>
       </View>
 
       <View id="headcount_row">
