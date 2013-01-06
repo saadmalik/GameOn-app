@@ -1,0 +1,6 @@
+"#leftButton": {
+  backgroundImage: '/images/game_detail/backButton.png',
+  width: '58dp',
+  height: '29dp',
+  font: {fontSize: '12dp', fontWeight: 'bold'}
+}

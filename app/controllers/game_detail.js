@@ -29,6 +29,35 @@ $.map_view.addEventListener('click', function(evt) {
         } else {
             Ti.Platform.openURL('https://maps.google.com/?q='+evt.annotation.title+','+evt.annotation.subtitle);
         }
-    }
+    }   
 }); 
 
+function viewComments(e) {
+  var foo = Alloy.createController('comments', args).getView();
+  Alloy.globals.tabgroup.activeTab.open(foo);
+}
+
+function viewMembers(e) {
+  var foo = Alloy.createController('members_joined', args).getView();
+  Alloy.globals.tabgroup.activeTab.open(foo);
+}
+
+function joinGame(game){
+
+}
+
+function leaveGame(game){
+
+}
+
+function changeBtnState(e) {
+  if ($.btnJoinLeave.joined) {
+    leaveGame();
+    $.btnJoinLeave.image = '/images/game_detail/joinGameButton.png';
+  } else {
+    joinGame();
+    $.btnJoinLeave.image = '/images/game_detail/leaveGameButton.png';
+  }
+  $.btnJoinLeave.joined = ! ($.btnJoinLeave.joined);
+
+}

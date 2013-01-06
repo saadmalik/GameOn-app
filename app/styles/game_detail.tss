@@ -168,8 +168,8 @@
   color: '#666666'
 },
 
-"#join_btn": {
-  image: '/images/game_detail/join_game_button.png',
+"#btnJoinLeave": {
+  image: '/images/game_detail/joinGameButton.png',
   width: '287dp',
   height: '33dp',
   top: '8dp'

@@ -31,8 +31,8 @@
         <Label id="game_desc">
           Please bring a red and blue shirt. If you don't bring one, you will be made fun of for being slow. Cogito Ergo Sum
         </Label>
-        <View class="hr"/>s
-        <Button id="join_btn">JOIN GAME</Button>
+        <View class="hr"/>
+        <Button id="btnJoinLeave" onClick="changeBtnState">Join</Button>
       </View>
 
       <View id="headcount_row">
@@ -47,7 +47,7 @@
           <Require src="player_joined"/>
           <Require src="player_joined"/>
         </View>
-        <View id="people_bottom_row">
+        <View id="people_bottom_row" onClick="viewMembers">
           <Label id="see_all_joined">SEE ALL WHO JOINED</Label>
         </View>
       </View>
@@ -62,7 +62,7 @@
           <Label id="comment">Saad M. Competition looks to be pretty good. I can’t wait to get on the field.</Label>
           <Label id="comment">Imran J. I’ve never played soccer a day in my life.  Hope I don’t score in my own goal.</Label>
         </View>
-        <View id="comments_bottom_row">
+        <View id="comments_bottom_row" onClick="viewComments">
           <Label id="more_comments">MORE COMMENTS</Label>
         </View>
       </View>

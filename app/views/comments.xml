@@ -1,0 +1,9 @@
+<Alloy>
+	<Window title="Comments" id="gameComments">
+		<LeftNavButton>
+			<Button id="leftButton" title="Back" onClick="popWindow" />
+		</LeftNavButton>
+		<ScrollView id="scroller">
+		</ScrollView>
+	</Window>
+</Alloy>
