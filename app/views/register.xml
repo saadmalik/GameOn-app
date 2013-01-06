@@ -2,7 +2,12 @@
   <Window id="self">
     <View class="container">
       <Label>In register window</Label>
-      <Button id="submit" onClick="submit_registration">Register</Button>
+      <TextField class="input" id="email"/>
+      <TextField class="input" id="password"/>
+      <View id="buttons">
+        <Button class="btn" id="register" onClick="submit_registration">Register</Button>
+        <Button class="btn" id="login" onClick="submit_login">Login</Button>
+      </View>
     </View>
   </Window>
 </Alloy>

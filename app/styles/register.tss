@@ -1,5 +1,40 @@
 ".container": {
 	backgroundColor: "white",
-  layout: 'vertical'
+  layout: 'vertical',
+  height: Ti.UI.FILL,
+  top: 0
 },
 
+".input": {
+  top: '5dp',
+  width: '80%',
+  height: Ti.UI.SIZE,
+  borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+},
+
+"#email": {
+  hintText: 'Email Address'
+},
+
+"#password": {
+  hintText: 'Password',
+  passwordMask: true
+},
+
+"#buttons": {
+  top: '5dp',
+  height: Ti.UI.SIZE
+},
+
+".btn": {
+  width: '35%',
+  height: Ti.UI.SIZE
+},
+
+"#register": {
+  left: '10%'
+},
+
+"#login": {
+  right: '10%'
+}
