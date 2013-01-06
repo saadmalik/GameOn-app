@@ -3,4 +3,9 @@ function doClick(e) {
 }
 
 Alloy.globals.tabgroup = $.group;
-$.group.open();
+if (Ti.App.Properties.getBool('has_login', false)) {
+  $.group.open();
+} else {
+  var foo = Alloy.createController('register').getView();
+  foo.open();
+}

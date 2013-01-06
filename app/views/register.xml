@@ -1,0 +1,8 @@
+<Alloy>
+  <Window id="self">
+    <View class="container">
+      <Label>In register window</Label>
+      <Button id="submit" onClick="submit_registration">Register</Button>
+    </View>
+  </Window>
+</Alloy>
