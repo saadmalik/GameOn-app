@@ -1,9 +1,8 @@
 <Alloy>
-	<Window title="Members Joined" id="membersJoined">
-		<LeftNavButton>
-			<Button id="leftButton" title="Back" onClick="popWindow" />
-		</LeftNavButton>
-		<ScrollView id="scroller">
-		</ScrollView>
-	</Window>
+  <Window title="Members Joined" id="membersJoined">
+    <LeftNavButton>
+      <Button id="leftButton" title="Back" onClick="popWindow" />
+    </LeftNavButton>
+    <TableView id="membersTable"/>
+  </Window>
 </Alloy>
