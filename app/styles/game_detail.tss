@@ -202,14 +202,15 @@
 "#people_box": {
   backgroundImage: '/images/game_detail/peopleJoinedBoxBg.png',
   width: '305dp',
-  height: '131dp',
+  height: '96dp',
   top: '10dp'
 },
 
 "#people_joined_row": {
   top: 0,
   layout: 'horizontal',
-  left: '2%',
+  left: '-9dp',
+  right: '8dp',
   bottom: '30dp'
 },
 
@@ -274,6 +275,8 @@
 
 "#comments_text": {
   top: 0,
+  left: '8dp',
+  right: '8dp',
   layout: 'vertical',
   bottom: '30dp'
 },
@@ -287,5 +290,5 @@
   height: Ti.UI.SIZE,
   width: Ti.UI.SIZE,
   top: '10dp',
-  left: '10dp'
+  left: 0
 }

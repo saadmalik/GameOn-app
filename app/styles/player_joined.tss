@@ -1,17 +1,17 @@
 "#player_info": {
-  layout: 'vertical',
-  width: '16%',
   height: Ti.UI.SIZE,
-  top: '10dp',
-  left: '3%'
+  width: Ti.UI.SIZE,
+  top: '10dp'
 },
 
 "#player_avatar": {
   image: '/images/game_detail/players_joined/bilal.png',
   width: '44dp',
-  height: '44dp'
+  height: '44dp',
+  left: '17dp'
 },
 
+/* 
 "#player_name": {
   font: {
     fontSize: '12pt',
@@ -22,3 +22,4 @@
   height: Ti.UI.SIZE,
   top: '3dp'
 }
+*/
