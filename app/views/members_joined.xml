@@ -3,6 +3,6 @@
     <LeftNavButton>
       <Button id="leftButton" title="Back" onClick="popWindow" />
     </LeftNavButton>
-    <TableView id="table" />
+    <TableView id="membersTable" />
   </Window>
 </Alloy>

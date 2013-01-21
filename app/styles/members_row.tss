@@ -1,0 +1,25 @@
+ "#name": {
+  font: {
+    fontFamily: 'Helvetica Neue',
+    fontSize: '14pt',
+    fontWeight: 'bold',
+  },
+  color: '#666666',
+  textAlign: 'left',
+  left: '5dp',
+  height: Ti.UI.SIZE
+ },
+
+ "#photo": {
+  left: '5dp',
+  top: '5dp',
+  bottom:'5dp',
+  height: Ti.UI.SIZE
+ },
+
+ "#tableRow": {
+  height: Ti.UI.SIZE,
+  layout: 'horizontal',
+  hasChild: true
+ }
+  

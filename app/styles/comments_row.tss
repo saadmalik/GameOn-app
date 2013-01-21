@@ -1,0 +1,58 @@
+"#tableRow": {
+  height: Ti.UI.SIZE,
+  layout: 'horizontal'
+},
+
+"#photo": {
+  left: '5dp',
+  top: '5dp',
+  bottom:'5dp',
+  height: Ti.UI.SIZE
+},
+
+"#comMeta": {
+  layout: 'horizontal',
+  top: '7dp',
+  height: Ti.UI.Size
+},
+
+"#comText": {
+  height: Ti.UI.Size,
+  top: '5dp'
+},
+
+"#name": {
+  font: {
+    fontFamily: 'Helvetica Neue',
+    fontSize: '12pt',
+    fontWeight: 'bold'
+  },
+  color: '#666666',
+  textAlign: 'left',
+  left: '5dp',
+  height: Ti.UI.SIZE
+},
+
+"#comTime": {
+  font: {
+    fontFamily: 'Helvetica Neue',
+    fontSize: '12pt'
+  },
+  color: '#666666',
+  textAlign: 'left',
+  right: '5dp',
+  top: '7dp',
+  height: Ti.UI.SIZE
+},
+
+"#comment": {
+  font: {
+    fontFamily: 'Helvetica Neue',
+    fontSize: '12pt',
+  },
+  color: '#666666',
+  textAlign: 'left',
+  left: '5dp',
+  height: Ti.UI.SIZE,
+  top: '5dp'
+}

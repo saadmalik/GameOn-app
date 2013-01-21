@@ -3,7 +3,10 @@
 		<LeftNavButton>
 			<Button id="leftButton" title="Back" onClick="popWindow" />
 		</LeftNavButton>
-		<ScrollView id="scroller">
-		</ScrollView>
+    <TableView id="commentsTable" />
+    <View id="writeComment">
+      <TextField id="commentText"/>
+      <Button id="sendBtn" />
+    </View>
 	</Window>
 </Alloy>

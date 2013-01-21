@@ -1,0 +1,12 @@
+<Alloy>
+  <TableViewRow id="tableRow">
+    <ImageView id="photo" />
+    <View id="comMeta">
+      <Label id="name" />
+      <Label id="comTime" />
+    </View>
+    <View id="comText">
+      <Label id="comment" />
+    </View>
+  </TableViewRow>
+</Alloy>  
