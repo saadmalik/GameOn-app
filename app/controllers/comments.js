@@ -32,3 +32,12 @@ for (var i = 0; i<comments.length; i++){
 }
 
 $.commentsTable.setData(tableData);
+
+$.commentText.addEventListener('focus', function(){
+  $.gameComments.setBottom('160dp');
+  $.commentsTable.scrollToIndex(tableData.length - 1);
+});
+
+$.commentText.addEventListener('blur', function(){
+  $.gameComments.setBottom(0);
+});
