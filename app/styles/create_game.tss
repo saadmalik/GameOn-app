@@ -1,0 +1,6 @@
+"#closeButton": {
+  backgroundImage: '/images/ios/closeWindowButton.png',
+  width: '58dp',
+  height: '29dp',
+  font: {fontSize: '12dp', fontWeight: 'bold'}
+}

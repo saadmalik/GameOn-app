@@ -1,0 +1,7 @@
+<Alloy>
+  <Window title="Create a Game" id="createGame">
+    <LeftNavButton>
+      <Button id="closeButton" title="Close" onClick="popWindow" />
+    </LeftNavButton>
+  </Window>
+</Alloy>

@@ -21,7 +21,7 @@ $.comment_count.text = args.comment_count;
 $.date_time.text = date;
 $.profile_photo.image = args.nearby_user.photo;
 $.name.text = args.nearby_user.name;
-$.game_type.text = args.sport;
+$.game_type.text = sport;
 $.distance.text = args.distance;
 $.headcount.text = args.spots;
 

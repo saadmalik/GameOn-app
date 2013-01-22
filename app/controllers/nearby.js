@@ -1,19 +1,27 @@
 Alloy.globals.tab1 = $.nearbyTab;
 /* Add create game button for iOS */
 if (OS_IOS) {
-  $.nearbyWindow.rightNavButton = Ti.UI.createButton({
+   var createGameButton = Ti.UI.createButton({
     title: 'Create',
     backgroundImage: '/images/ios/create_game_button.png',
     width: '58dp',
     height: '29dp',
     font: {fontSize: '12dp', fontWeight: 'bold'}
-  });
+  }); 
+  createGameButton.addEventListener('click', function(){
+    var createGameWindow = Alloy.createController('create_game').getView();
+    createGameWindow.open({modal: true});
+  }) 
+
   $.nearbyWindow.leftNavButton = Ti.UI.createButton({
     backgroundImage: '/images/ios/refresh.png',
     width: '35dp',
     height: '30dp'
   });
+
+  $.nearbyWindow.rightNavButton = createGameButton;
 }
+
 
 /* Sample Games Response */
 var games = [
