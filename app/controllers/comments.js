@@ -9,35 +9,41 @@ var comments = [
     name:'Bilal Quadri',
     photo:'/images/profilePhotoBilal.png',
     comment: 'Looking forward to an amazing game.',
-    comTime: '24m'
+    commentTime: '24m'
   },
   {
     name:'Bilal Quadri',
     photo: '/images/profilePhotoShomail.png',
     comment: 'Competition looks to be pretty good. I can’t wait to get on the field.',
-    comTime: '12m'
+    commentTime: '12m'
   },
   {
     name:'Imran Jawed',
     photo:'/images/profilePhotoImran.png',
     comment:'I’ve never played soccer a day in my life.  Hope I don’t score in my own goal.',
-    comTime:'3m'
+    commentTime:'3m'
   }
 ];
 
 var tableData = [];
-for (var i = 0; i<comments.length; i++){
+for (var j = 0; j<15; j++){
+  var i = j % 3;
+  comments[i].commentTime = j;
   var row = Alloy.createController('comments_row', comments[i]).getView();
   tableData.push(row);
 }
-
 $.commentsTable.setData(tableData);
 
-//$.commentText.addEventListener('focus', function(){
-  //$.gameComments.setBottom('160dp');
-  //$.commentsTable.scrollToIndex(tableData.length - 1);
-//});
+// Event listeners
+$.commentText.addEventListener('focus', function(){
+  $.commentsTable.scrollToIndex(tableData.length - 1);
+  $.gameComments.setBottom('180dp');
+});
 
-//$.commentText.addEventListener('blur', function(){
-  //$.gameComments.setBottom(0);
-//});
+$.commentText.addEventListener('blur', function(){
+  $.gameComments.setBottom(0);
+});
+
+$.gameComments.addEventListener('load', function() {
+  $.commentText.focus();
+});

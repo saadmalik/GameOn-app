@@ -1,11 +1,11 @@
 <Alloy>
   <TableViewRow id="tableRow">
     <ImageView id="photo" />
-    <View id="comMeta">
-      <Label id="name" />
-      <Label id="comTime" />
-    </View>
-    <View id="comText">
+    <View id="commentText">
+      <View id="commentMeta">
+        <Label id="name" />
+        <Label id="commentTime" />
+      </View>
       <Label id="comment" />
     </View>
   </TableViewRow>

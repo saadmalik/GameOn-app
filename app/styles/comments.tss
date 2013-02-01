@@ -10,24 +10,28 @@
 },
 
 "#writeComment": {
-  layout: 'horizontal',
   height: '40dp',
   width: Ti.UI.FILL,
   bottom: 0
 },
 
 "#commentText": {
-  left: '4dp',
-  height: '20dp',
+  left: '5dp',
+  height: '30dp',
   borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
-  width: '200dp'
+  right: '65dp',
+  font: {
+    fontFamily: 'Helvetica Neue',
+    fontSize: '12pt'
+  },
+  color: '#666666',
 },
 
 "#sendBtn": {
   title: 'Send',
-  width: Ti.UI.SIZE,
-  height: Ti.UI.SIZE,
-  left: '4dp'
+  width: '50dp',
+  height: '30dp',
+  right: '10dp'
 },
 
 "#gameComments": {

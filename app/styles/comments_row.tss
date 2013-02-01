@@ -1,5 +1,6 @@
 "#tableRow": {
   height: Ti.UI.SIZE,
+  width: Ti.UI.FILL,
   layout: 'horizontal'
 },
 
@@ -7,18 +8,22 @@
   left: '5dp',
   top: '5dp',
   bottom:'5dp',
-  height: Ti.UI.SIZE
+  height: '45dp'
 },
 
-"#comMeta": {
-  layout: 'horizontal',
+"#commentText": {
+  layout: 'vertical',
+  height: Ti.UI.SIZE,
+  width: Ti.UI.FILL,
   top: '7dp',
-  height: Ti.UI.Size
+  left: '5dp'
 },
 
-"#comText": {
-  height: Ti.UI.Size,
-  top: '5dp'
+"#commentMeta": {
+  width: Ti.UI.FILL,
+  height: Ti.UI.SIZE,
+  left: 0,
+  top: 0
 },
 
 "#name": {
@@ -29,11 +34,13 @@
   },
   color: '#666666',
   textAlign: 'left',
-  left: '5dp',
-  height: Ti.UI.SIZE
+  left: 0,
+  top: 0,
+  height: Ti.UI.SIZE,
+  width: Ti.UI.SIZE
 },
 
-"#comTime": {
+"#commentTime": {
   font: {
     fontFamily: 'Helvetica Neue',
     fontSize: '12pt'
@@ -41,8 +48,9 @@
   color: '#666666',
   textAlign: 'left',
   right: '5dp',
-  top: '7dp',
-  height: Ti.UI.SIZE
+  top: 0,
+  height: Ti.UI.SIZE,
+  width: Ti.UI.SIZE
 },
 
 "#comment": {
@@ -52,7 +60,9 @@
   },
   color: '#666666',
   textAlign: 'left',
-  left: '5dp',
   height: Ti.UI.SIZE,
-  top: '5dp'
+  top: '5dp',
+  left: 0,
+  right: '20dp',
+  bottom: '5dp'
 }
