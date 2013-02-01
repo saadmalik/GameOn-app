@@ -6,8 +6,8 @@ function popWindow(){
 
 var comments = [
   {
-    name:'Bilal Quadri', 
-    photo:'/images/profilePhotoBilal.png', 
+    name:'Bilal Quadri',
+    photo:'/images/profilePhotoBilal.png',
     comment: 'Looking forward to an amazing game.',
     comTime: '24m'
   },
@@ -18,7 +18,7 @@ var comments = [
     comTime: '12m'
   },
   {
-    name:'Imran Jawed', 
+    name:'Imran Jawed',
     photo:'/images/profilePhotoImran.png',
     comment:'I’ve never played soccer a day in my life.  Hope I don’t score in my own goal.',
     comTime:'3m'
@@ -33,11 +33,11 @@ for (var i = 0; i<comments.length; i++){
 
 $.commentsTable.setData(tableData);
 
-$.commentText.addEventListener('focus', function(){
-  $.gameComments.setBottom('160dp');
-  $.commentsTable.scrollToIndex(tableData.length - 1);
-});
+//$.commentText.addEventListener('focus', function(){
+  //$.gameComments.setBottom('160dp');
+  //$.commentsTable.scrollToIndex(tableData.length - 1);
+//});
 
-$.commentText.addEventListener('blur', function(){
-  $.gameComments.setBottom(0);
-});
+//$.commentText.addEventListener('blur', function(){
+  //$.gameComments.setBottom(0);
+//});

@@ -4,9 +4,9 @@
 			<Button id="leftButton" title="Back" onClick="popWindow" />
 		</LeftNavButton>
     <TableView id="commentsTable" />
-    <View id="writeComment">
-      <TextField id="commentText"/>
-      <Button id="sendBtn" />
-    </View>
+    <!--<View id="writeComment">-->
+      <!--<TextField id="commentText"/>-->
+      <!--<Button id="sendBtn" />-->
+    <!--</View>-->
 	</Window>
 </Alloy>
