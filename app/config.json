@@ -1,17 +1,16 @@
 {
 	"global": {
+    "api_key": "gameon",
+    "api_secret": "secret"
   },
 	"env:development": {
     "api_url": "http://localhost:3000/",
-    "api_key": "key goes here"
   },
 	"env:test": {
     "api_url": "http://localhost:3000/",
-    "api_key": "key goes here"
   },
 	"env:production": {
     "api_url": "http://localhost:3000/",
-    "api_key": "key goes here"
   },
 	"os:ios": {},
 	"os:android": {},
