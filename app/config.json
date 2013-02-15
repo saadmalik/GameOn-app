@@ -4,13 +4,13 @@
     "api_secret": "secret"
   },
 	"env:development": {
-    "api_url": "http://localhost:3000/",
+    "api_url": "http://localhost:3000/"
   },
 	"env:test": {
-    "api_url": "http://localhost:3000/",
+    "api_url": "http://localhost:3000/"
   },
 	"env:production": {
-    "api_url": "http://localhost:3000/",
+    "api_url": "http://localhost:3000/"
   },
 	"os:ios": {},
 	"os:android": {},
