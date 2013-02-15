@@ -59,5 +59,5 @@ module.exports = function(method, url, parameters, callback) {
     timeout: 5000
   });
   xhr.open(method, globals.api_url + url);
-  xhr.send(parameters),
+  xhr.send(parameters);
 };
